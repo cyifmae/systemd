@@ -1,9 +1,9 @@
 # Liberated `systemd`
-Mass surveillance is bad, acctually. So here's a fork of `systemd` with surveillance enablement removed, which will be kept up-to-date with other changes in `systemd/main`. However you use this, or do not, is your choice and yours alone.
+Mass surveillance is bad, actually. So here's a fork of `systemd` with surveillance enablement removed, which will be kept up-to-date with other changes in `systemd/main`. However you use this, or do not, is your choice and yours alone.
 
 To see how I run testing for this fork, see: https://github.com/Jeffrey-Sardina/systemd-suite. (In short, I run their CI pipeline before pushing changes.)
 
-In order to allow users to avoid MicroSlop's ecosystem, this repository is made available via Gitea and CodeBerg, on top of GitHub. The contents of all repositories are identical, and updated at the same time.
+In order to allow users to avoid MicroSlop's ecosystem, this repository is made available via Gitea and Codeberg, on top of GitHub. The contents of all repositories are identical, and updated at the same time.
 - github - https://github.com/Jeffrey-Sardina/systemd
 - codeberg (mirror) - https://codeberg.org/Jeffrey-Sardina/systemd
 - gitea (mirror) - https://gitea.com/Jeffrey-Sardina/systemd
