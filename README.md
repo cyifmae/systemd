@@ -13,7 +13,7 @@ Liberated `systemd` will be updated at least weekly. I hope to automate this pro
 ## How is Liberated `systemd` implemented?
 It's quite simple: `systemd`, very nicely, has atomic comits. There is exactly one commit (https://github.com/systemd/systemd/commit/acb6624fa19ddd68f9433fb0838db119fe18c3ed) that added in all tooling (both functional and data-wise) needed to enable age verification. I reversed this commit, and have kept all other changes since.
 
-Since age collection is not needed for any aspect of `systemd`, this does not affect other aspects of `systemd`. Any downstream systems that attempt to call age-verifiaction-related functions on Liberated `systemd` will therefore encounter an error. This is done bey design. This is also why I have not simply created a "default age" as a lie -- it's about denying applications the ability to assume the presence of an API that enables mass surveillance.
+Since age collection is not needed for any aspect of `systemd`, this does not affect other aspects of `systemd`. Any downstream systems that attempt to call age-verifiaction-related functions on Liberated `systemd` will therefore encounter an error. This is done by design. This is also why I have not simply created a "default age" as a lie -- it's about denying applications the ability to assume the presence of an API that enables mass surveillance.
 
 ## How is Liberated `systemd` tested?
 To see how I run testing for this fork, see: https://github.com/Jeffrey-Sardina/systemd-suite. (In short, I run their CI pipeline before pushing changes.)
